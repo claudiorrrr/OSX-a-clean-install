@@ -13,8 +13,6 @@ The software selected is software that is "tried and true" --- software I need a
 * Browsers
 	* Chrome (installed via Cask)
 	* [Firefox](http://firefox.com)
-	* Opera (installed via App Store)
-	* [Webkit](http://webkit.org)
 
 * Development
 	* [Dropbox](https://www.dropbox.com/install2)
@@ -22,7 +20,6 @@ The software selected is software that is "tried and true" --- software I need a
 
 * Utilities
 	* [1Password](https://agilebits.com/onepassword/mac)
-	* [GrandPerspective](http://grandperspectiv.sourceforge.net/)
 	* iTerm 2 (installed via Cask)
 	* [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
 	* [Spotify](https://www.spotify.com/us/download/mac/)
