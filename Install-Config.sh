@@ -45,34 +45,39 @@ brew install youtube-dl
 #
 # Some cask packages that I like.
 #
-brew install adium
-brew install adobe-reader
-brew install backblaze
-brew install bartender
-brew install battery-guardian
-brew install caffeine
-brew install calibre
-brew install cloak
-brew install chromium
-brew install dropbox
-brew install firefox
-brew install google-chrome
-brew install handbrake
-brew install hazel
-brew install iterm2
-brew install mactex
-brew install mumble
-brew install nmap
-brew install mpv
-brew install onyx
-brew install plex-media-server
-brew install reeder
-brew install skype
-brew install spectacle
-brew install steam
-brew install sublime-text3
-brew install TextExpander
-brew install the-unarchiver
-brew install thunderbirdbrew install brew install 
-brew install transmission
-brew install vlc
+brew cask install adium
+brew cask install adobe-reader
+brew cask install appcleaner
+brew cask install backblaze
+brew cask install bartender
+brew cask install battery-guardian
+brew cask install caffeine
+brew cask install calibre
+brew cask install cloak
+brew cask install chromium
+brew cask install dropbox
+brew cask install firefox
+brew cask install flux
+brew cask install google-chrome
+brew cask install handbrake
+brew cask install hazel
+brew cask install iterm2
+brew cask install mactex
+brew cask install mumble
+brew cask install nmap
+brew cask install mpv
+brew cask install nvalt
+brew cask install onyx
+brew cask install plex-media-server
+brew cask install reeder
+brew cask install skype
+brew cask install slack
+brew cask install spectacle
+brew cask install steam
+brew cask install sublime-text3
+brew cask install textexpander
+brew cask install the-unarchiver
+brew cask install transmit
+brew cask install thunderbird
+brew cask install transmission
+brew cask install vlc
