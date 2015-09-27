@@ -1,7 +1,10 @@
 #!/bin/sh
 #
 # Brew packages that I use alot.
+#
 # Remember to chmod a+x installConfig.sh
+#
+# And ./installConfig.sh
 #
 brew install autoconf
 brew install automake
