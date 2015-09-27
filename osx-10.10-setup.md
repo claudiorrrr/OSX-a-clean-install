@@ -38,8 +38,6 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 brew doctor
 ```
 
-At the time of this writing, `brew doctor` says that `Xcode 6.1` is required, which means downloading it from the Apple Developer Center until it is released in the Mac App Store.
-
 ## Install Homebrew extension Cask
 ```bash
 brew install caskroom/cask/brew-cask
@@ -67,7 +65,6 @@ brew cask install nmap
 brew cask install mpv
 brew cask install onyx
 brew cask install plex-media-server
-brew cask install popcorn-time
 brew cask install spectacle
 brew cask install steam
 brew cask install sublime-text3
