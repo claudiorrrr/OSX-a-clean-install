@@ -81,3 +81,10 @@ brew cask install transmit
 brew cask install thunderbird
 brew cask install transmission
 brew cask install vlc
+
+# Let's add some fonts
+brew install font-m-plus
+brew install font-clear-sans
+brew install font-roboto
+brew install font-inconsolata
+brew install font-Mensch
