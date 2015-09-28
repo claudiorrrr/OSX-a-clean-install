@@ -59,6 +59,7 @@ brew cask install dropbox
 brew cask install firefox
 brew cask install flux
 brew cask install google-chrome
+brew cask install gpgtools
 brew cask install handbrake
 brew cask install hazel
 brew cask install iterm2
