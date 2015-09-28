@@ -55,6 +55,7 @@ brew cask install caffeine
 brew cask install calibre
 brew cask install cloak
 brew cask install chromium
+brew cask install delibar
 brew cask install dropbox
 brew cask install firefox
 brew cask install flux
@@ -70,18 +71,23 @@ brew cask install mpv
 brew cask install nvalt
 brew cask install onyx
 brew cask install plex-media-server
+brew cask install rdio
 brew cask install reeder
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
 brew cask install steam
 brew cask install sublime-text3
+brew cask install telegram
 brew cask install textexpander
 brew cask install the-unarchiver
+brew cask install todoist
+brew cask install torbrowser
 brew cask install transmit
 brew cask install thunderbird
 brew cask install transmission
 brew cask install vlc
+brew cask install xld
 
 # Let's add some fonts
 brew install font-m-plus
