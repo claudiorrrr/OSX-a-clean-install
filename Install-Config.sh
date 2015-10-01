@@ -8,23 +8,14 @@
 #
 brew install autoconf
 brew install automake
-brew install brew-cask
+brew install caskroom/cask/brew-cask
 brew install curl
-brew install dirmngr
-brew install ffmpeg
 brew install fish
-brew install fontconfig
-brew install freetype
-brew install gettext
-brew install glib
-brew install gmime
-brew install gmp
 brew install gnupg
 brew install gnupg2
 brew install gnutls
 brew install gpg-agent
 brew install gpgme
-brew install jpeg
 brew install lame
 brew install lftp
 brew install mosh
@@ -32,21 +23,14 @@ brew install mutt
 brew install mutt-patched
 brew install notmuch
 brew install openssl
-brew install pkg-config
 brew install tmux
-brew install tor
-brew install tree
-brew install urlview
-brew install vim
 brew install wget
-brew install xvid
 brew install youtube-dl
 
 #
 # Some cask packages that I like.
 #
 brew cask install adium
-brew cask install adobe-reader
 brew cask install appcleaner
 brew cask install backblaze
 brew cask install bartender
@@ -60,7 +44,7 @@ brew cask install dropbox
 brew cask install firefox
 brew cask install flux
 brew cask install google-chrome
-brew cask install gpgtools
+# brew cask install gpgtools // para OSX 10.11 usar beta
 brew cask install handbrake
 brew cask install hazel
 brew cask install iterm2
@@ -79,7 +63,7 @@ brew cask install spectacle
 brew cask install steam
 brew cask install sublime-text3
 brew cask install telegram
-brew cask install textexpander
+# brew cask install textexpander - instalar versión 4 por web.
 brew cask install the-unarchiver
 brew cask install todoist
 brew cask install torbrowser
@@ -89,7 +73,7 @@ brew cask install transmission
 brew cask install vlc
 brew cask install xld
 
-# Let's add some fonts
+# Let's add some font
 brew install font-m-plus
 brew install font-clear-sans
 brew install font-roboto
