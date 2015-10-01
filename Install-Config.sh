@@ -74,8 +74,9 @@ brew cask install vlc
 brew cask install xld
 
 # Let's add some font
-brew install font-m-plus
-brew install font-clear-sans
-brew install font-roboto
-brew install font-inconsolata
-brew install font-Mensch
+brew tap caskroom/fonts 
+brew cask install font-m-plus
+brew cask install font-clear-sans
+brew cask install font-roboto
+brew cask install font-inconsolata
+brew cask install font-Mensch
