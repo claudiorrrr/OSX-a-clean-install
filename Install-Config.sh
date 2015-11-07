@@ -7,6 +7,7 @@
 # And ./installConfig.sh
 #
 brew install autoconf
+brew install aircrack-ng
 brew install automake
 brew install caskroom/cask/brew-cask
 brew install curl
@@ -23,7 +24,12 @@ brew install mutt
 brew install mutt-patched
 brew install notmuch
 brew install openssl
+brew install pandoc
+brew install python
+brew install speedtest_cli
 brew install tmux
+brew install tor
+brew install vim
 brew install wget
 brew install youtube-dl
 
@@ -37,6 +43,7 @@ brew cask install bartender
 brew cask install battery-guardian
 brew cask install caffeine
 brew cask install calibre
+brew cask install chitchat
 brew cask install cloak
 brew cask install chromium
 brew cask install delibar
