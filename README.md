@@ -6,29 +6,10 @@ Lo bueno es que en el fondo esto facilita el proceso de hacer instalaciones limp
 
 ## Install Software
 
-The software selected is software that is "tried and true" --- software I need after any fresh install. I often install other software not listed here, but is handled in a case-by-case basis.
-
-### Install from Third-Party Websites
-
-* Browsers
-	* Chrome (installed via Cask)
-	* [Firefox](http://firefox.com)
-
-* Development
-	* [Dropbox](https://www.dropbox.com/install2)
-	* [Sublime Text 3](http://www.sublimetext.com/3)
-
-* Utilities
-	* [1Password](https://agilebits.com/onepassword/mac)
-	* iTerm 2 (installed via Cask)
-	* [Skype](http://www.skype.com/en/download-skype/skype-for-computer/)
-	* [Spotify](https://www.spotify.com/us/download/mac/)
-	* [Transmit](http://panic.com/transmit)
-
 Fonts
 -----
 [Mensch coding font](http://robey.lag.net/2010/06/21/mensch-font.html)
-[Inconsolata?]
+[Inconsolata] (https://github.com/google/fonts/tree/master/ofl/inconsolata)
 
 #Homebrew
 
@@ -50,27 +31,47 @@ brew install curl mosh tmux wget autoconf fontconfig gnupg lftp libtasn1 mutt-pa
 
 ## Install applications via Homebrew Cask
 ```bash
+brew cask install 1password
 brew cask install adobe-reader
+brew cask install appcleaner
 brew cask install bartender
 brew cask install battery-guardian
 brew cask install caffeine
 brew cask install calibre
+brew cask install cloak
+brew cask install coyim
 brew cask install chromium
+brew cask install delibar
+brew cask install dropbox
 brew cask install firefox
+brew cask install flux
+brew cask install font-inconsolata
 brew cask install google-chrome
+brew cask install handbrake
 brew cask install iterm2
+brew cask install little-snitch
 brew cask install mactex
+brew cask install mojibar
 brew cask install mumble
-brew cask install nmap
 brew cask install mpv
 brew cask install onyx
+brew cask install owncloud
 brew cask install plex-media-server
+brew cask install ricochet
+brew cask install skype
 brew cask install spectacle
 brew cask install steam
+brew cask install syncthing
+brew cask install syncthing-bar
 brew cask install sublime-text3
 brew cask install thunderbird  
-brew cask install transmission
+brew cask install the-unarchiver
+brew cask install torbrowser
+brew cask install transmit
+brew cask install viscosity
+brew cask install vivaldi
 brew cask install vlc
+brew cask install xld
 ```
 
 # OS X Preferences
