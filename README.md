@@ -5,74 +5,7 @@ Esta es mi receta para instalación limpia de OSX. Acá debieran estar tanto las
 Lo bueno es que en el fondo esto facilita el proceso de hacer instalaciones limpias cada 6 meses, algo recomendable: mantiene el sistema limpio, rápido y seguro. 
 
 ## Install Software
-
-Fonts
------
-[Mensch coding font](http://robey.lag.net/2010/06/21/mensch-font.html)
-[Inconsolata] (https://github.com/google/fonts/tree/master/ofl/inconsolata)
-
-#Homebrew
-
-## Install Homebrew
-```bash
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew doctor
-```
-
-## Install Homebrew extension Cask
-```bash
-brew install caskroom/cask/brew-cask
-```
-
-## Install common applications via Homebrew
-```bash
-brew install curl mosh tmux wget autoconf fontconfig gnupg lftp libtasn1 mutt-patched pkg-config tmux xapian automake freetype gnupg2 libassuan libtiff nagios protobuf tokyo-cabinet xvid bitlbee gd gnutls libevent libusb nagios-plugins pth tor xz bmon gdbm gpg-agent libffi libusb-compat nettle python tree youtube-dl brew-cask gettext gpgme libgcrypt libvo-aacenc notmuch readline urlview dirmngr glib irssi libgpg-error mobile-shell openssl s-lang vim ffmpeg gmime jpeg libksba multimarkdown pcre sqlite wget fish gmp lame libpng mutt pinentry talloc x264
-```
-
-## Install applications via Homebrew Cask
-```bash
-brew cask install 1password
-brew cask install adobe-reader
-brew cask install appcleaner
-brew cask install bartender
-brew cask install battery-guardian
-brew cask install caffeine
-brew cask install calibre
-brew cask install cloak
-brew cask install coyim
-brew cask install chromium
-brew cask install delibar
-brew cask install dropbox
-brew cask install firefox
-brew cask install flux
-brew cask install font-inconsolata
-brew cask install google-chrome
-brew cask install handbrake
-brew cask install iterm2
-brew cask install little-snitch
-brew cask install mactex
-brew cask install mojibar
-brew cask install mumble
-brew cask install mpv
-brew cask install onyx
-brew cask install owncloud
-brew cask install plex-media-server
-brew cask install ricochet
-brew cask install skype
-brew cask install spectacle
-brew cask install steam
-brew cask install syncthing
-brew cask install syncthing-bar
-brew cask install sublime-text3
-brew cask install thunderbird  
-brew cask install the-unarchiver
-brew cask install torbrowser
-brew cask install transmit
-brew cask install viscosity
-brew cask install vivaldi
-brew cask install vlc
-brew cask install xld
-```
+Ver [Install-Config](https://github.com/claudioruiz/OSX/blob/master/Install-Config.sh)
 
 # OS X Preferences
 
@@ -82,8 +15,8 @@ brew cask install xld
 chflags nohidden ~/Library
 
 #Store screenshots in subfolder on desktop
-mkdir ~/Desktop/Screenshots
-defaults write com.apple.screencapture location ~/Desktop/Screenshots
+mkdir ~/Downloads/Screenshots
+defaults write com.apple.screencapture location ~/Downloads/Screenshots
 ```
 
 Set hostname
