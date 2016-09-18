@@ -15,24 +15,22 @@ fi
 # Update homebrew recipes
 brew update
 
-# Install apps
+# Install brew apps
 brew install autoconf
 brew install aircrack-ng
+brew install aria2
 brew install automake
 brew install caskroom/cask/brew-cask
 brew install curl
 brew install fish
 brew install gnupg
-brew install gnupg2
+brew install gnupg21
 brew install gnutls
 brew install gpg-agent
 brew install gpgme
 brew install lame
 brew install lftp
 brew install mosh
-brew install mutt
-brew install mutt-patched
-brew install notmuch
 brew install openssl
 brew install pandoc
 brew install python
