@@ -1,11 +1,21 @@
 #!/bin/sh
 #
 # Brew packages that I use alot.
+# Remember before to run:
+#   1. to chmod a+x installConfig.sh
+#   2. ./installConfig.sh
 #
-# Remember to chmod a+x installConfig.sh
-#
-# And ./installConfig.sh
-#
+# First, check for Homebrew,
+# Install if we don't have it
+if test ! $(which brew); then
+  echo "Installing homebrew..."
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+fi
+
+# Update homebrew recipes
+brew update
+
+# Install apps
 brew install autoconf
 brew install aircrack-ng
 brew install automake
@@ -35,50 +45,56 @@ brew install youtube-dl
 
 #
 # Some cask packages that I like.
+# First, allow caskroom
+
+brew tap caskroom/cask
+
 #
-brew cask install adium
+brew cask install 1password
+brew cask install adobe-reader
 brew cask install appcleaner
-brew cask install backblaze
 brew cask install bartender
 brew cask install battery-guardian
 brew cask install caffeine
 brew cask install calibre
-brew cask install chitchat
 brew cask install cloak
+brew cask install coyim
 brew cask install chromium
 brew cask install delibar
 brew cask install dropbox
 brew cask install firefox
 brew cask install flux
+brew cask install font-inconsolata
 brew cask install google-chrome
-# brew cask install gpgtools // para OSX 10.11 usar beta
 brew cask install handbrake
-brew cask install hazel
 brew cask install iterm2
+brew cask install little-snitch
 brew cask install mactex
+brew cask install mojibar
 brew cask install mumble
-brew cask install nmap
 brew cask install mpv
-brew cask install nvalt
 brew cask install onyx
+brew cask install owncloud
 brew cask install plex-media-server
-brew cask install rdio
 brew cask install reeder
+brew cask install ricochet
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
 brew cask install steam
+brew cask install syncthing
+brew cask install syncthing-bar
 brew cask install sublime-text3
 brew cask install telegram
-# brew cask install textexpander - instalar versión 4 por web.
+brew cask install thunderbird  
 brew cask install the-unarchiver
-brew cask install todoist
 brew cask install torbrowser
 brew cask install transmit
-brew cask install thunderbird
-brew cask install transmission
+brew cask install viscosity
+brew cask install vivaldi
 brew cask install vlc
 brew cask install xld
+
 
 # Let's add some font
 brew tap caskroom/fonts 
