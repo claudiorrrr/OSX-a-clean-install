@@ -5,6 +5,11 @@ Esta es mi receta para instalación limpia de OSX. Acá debieran estar tanto las
 Lo bueno es que en el fondo esto facilita el proceso de hacer instalaciones limpias cada 6 meses, algo recomendable: mantiene el sistema limpio, rápido y seguro. 
 
 ## Install Software
+
+```bash
+$ sh Install-Config.sh
+```
+
 Ver [Install-Config](https://github.com/claudioruiz/OSX/blob/master/Install-Config.sh)
 
 # OS X Preferences
