@@ -18,6 +18,6 @@ Ver [OSX-Preferences](https://github.com/claudioruiz/OSX/blob/master/OSX-prefere
 
 # Sublime Text
 
-Ver [ST2-setup](https://github.com/claudioruiz/OSX/blob/master/St2-setup.sh)
+Ver [ST2-setup](https://github.com/claudioruiz/OSX/blob/master/St2-setup.md)
 
 ![aww yeah](http://i.imgur.com/AmFax.gif)
