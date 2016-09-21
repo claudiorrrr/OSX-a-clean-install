@@ -24,7 +24,11 @@ brew install caskroom/cask/brew-cask
 brew install curl
 brew install fish
 brew install gnupg
+# fixing to install gpg 2.1 and not 2.0 following https://www.rempe.us/blog/yubikey-gnupg-2-1-and-ssh/
+brew tap homebrew/versions
 brew install gnupg21
+brew install pinentry-mac
+# done fixing
 brew install gnutls
 brew install gpg-agent
 brew install gpgme
