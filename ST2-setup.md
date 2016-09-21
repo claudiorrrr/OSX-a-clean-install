@@ -1,6 +1,7 @@
 Add Sublime Text CLI
 ```
-mkdir -p ~/bin && ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl
+mkdir -p ~/bin 
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 ```
 
 Install Package Control 
