@@ -55,6 +55,7 @@ brew tap caskroom/cask
 brew cask install 1password
 brew cask install adobe-reader
 brew cask install appcleaner
+brew cask install atext # not TextExpander anymore
 brew cask install bartender
 brew cask install battery-guardian
 brew cask install caffeine
