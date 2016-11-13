@@ -53,18 +53,15 @@ brew tap caskroom/cask
 
 #
 brew cask install 1password
-brew cask install adobe-reader
 brew cask install appcleaner
 brew cask install atext # not TextExpander anymore
 brew cask install bartender
-brew cask install battery-guardian
 brew cask install caffeine
 brew cask install calibre
 brew cask install cloak
 brew cask install coyim
 brew cask install chromium
 brew cask install delibar
-brew cask install dropbox
 brew cask install firefox
 brew cask install flux
 brew cask install font-inconsolata
@@ -77,24 +74,22 @@ brew cask install mojibar
 brew cask install mumble
 brew cask install mpv
 brew cask install onyx
-brew cask install owncloud
 brew cask install plex-media-server
 brew cask install reeder
 brew cask install ricochet
+brew cask install seafile-client
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
 brew cask install steam
 brew cask install syncthing
 brew cask install syncthing-bar
-brew cask install sublime-text3
 brew cask install telegram
 brew cask install thunderbird  
 brew cask install the-unarchiver
 brew cask install torbrowser
 brew cask install transmit
 brew cask install viscosity
-brew cask install vivaldi
 brew cask install vlc
 brew cask install xld
 
