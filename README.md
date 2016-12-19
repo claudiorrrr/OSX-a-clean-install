@@ -7,10 +7,10 @@ Lo bueno es que en el fondo esto facilita el proceso de hacer instalaciones limp
 ## Install Software
 
 ```bash
-$ sh Install-Config.sh
+$ sh first_install.sh
 ```
 
-Ver [Install-Config](https://github.com/claudioruiz/OSX/blob/master/Install-Config.sh)
+Ver [Install-Config](https://github.com/claudioruiz/OSX/blob/master/first_install.sh)
 
 # OS X Preferences
 
