@@ -64,9 +64,7 @@ brew cask install chromium
 brew cask install delibar
 brew cask install firefox
 brew cask install flux
-brew cask install font-inconsolata
 brew cask install google-chrome
-brew cask install handbrake
 brew cask install iterm2
 brew cask install little-snitch
 brew cask install mactex
@@ -74,14 +72,12 @@ brew cask install mojibar
 brew cask install mumble
 brew cask install mpv
 brew cask install onyx
-brew cask install plex-media-server
 brew cask install reeder
 brew cask install ricochet
 brew cask install seafile-client
 brew cask install skype
 brew cask install slack
 brew cask install spectacle
-brew cask install steam
 brew cask install syncthing
 brew cask install syncthing-bar
 brew cask install telegram
@@ -101,3 +97,5 @@ brew cask install font-clear-sans
 brew cask install font-roboto
 brew cask install font-inconsolata
 brew cask install font-Mensch
+brew tap colindean/fonts-nonfree
+brew cask install font-microsoft-office
