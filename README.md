@@ -12,6 +12,12 @@ $ sh first_install.sh
 
 Ver [Install-Config](https://github.com/claudioruiz/OSX/blob/master/first_install.sh)
 
+## Actualizar todo
+
+```bash
+$ sh cask_upgrade.sh
+```
+
 # OS X Preferences
 
 Ver [OSX-Preferences](https://github.com/claudioruiz/OSX/blob/master/OSX-preferences.sh)
