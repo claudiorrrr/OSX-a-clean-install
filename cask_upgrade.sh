@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 (set -x; brew update;)
-(set -x; brew cask update;)
+# (set -x; brew cask update;) # deprecated on January 1st
 
 (set -x; brew upgrade;)
 
