@@ -27,3 +27,8 @@ do
         echo "${red}${cask}${reset} is ${green}up-to-date${reset}."
     fi
 done
+# create a Brewfile with an undated list of cask installed 1313
+brew bundle dump
+
+# git push to git server to keep all of this updated
+git push -u origin master
