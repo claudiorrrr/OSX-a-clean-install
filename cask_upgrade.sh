@@ -28,6 +28,7 @@ do
     fi
 done
 # create a Brewfile with an undated list of cask installed 1313
+rm Brewfile
 brew bundle dump
 
 # git push to git server to keep all of this updated
