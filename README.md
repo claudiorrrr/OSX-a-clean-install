@@ -6,11 +6,13 @@ Lo bueno es que en el fondo esto facilita el proceso de hacer instalaciones limp
 
 ## Install Software
 
-```bash
-$ sh first_install.sh
-```
+* Open Terminal app
+* Install Homebrew via
+```bash /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+* Copy the Brewfile to your home folder
+* Type ```bash brew bundle```, if prompted, sign in your Apple ID for mas-cli.
 
-Ver [Install-Config](https://github.com/claudioruiz/OSX/blob/master/first_install.sh)
+Then wait for brew bundle to automatically install all your apps. During this time, you just migrate your backup files back to your new Mac like the way you backup them.
 
 ## Actualizar todo
 
