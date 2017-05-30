@@ -19,13 +19,3 @@ Then wait for brew bundle to automatically install all your apps. During this ti
 ```bash
 $ sh cask_upgrade.sh
 ```
-
-# OS X Preferences
-
-Ver [OSX-Preferences](https://github.com/claudioruiz/OSX/blob/master/OSX-preferences.sh)
-
-# Sublime Text
-
-Ver [ST2-setup](https://github.com/claudioruiz/OSX/blob/master/St2-setup.md)
-
-![aww yeah](http://i.imgur.com/AmFax.gif)
