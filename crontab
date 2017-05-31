@@ -1,0 +1,1 @@
+0 10 * * * /Users/cla-/github/OSX-a-clean-install/cask_upgrade.sh >> /Users/cla-/Downloads/tmp/workkkkkkks.txt 2>&1
