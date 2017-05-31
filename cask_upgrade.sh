@@ -32,4 +32,6 @@ rm Brewfile
 brew bundle dump
 
 # git push to git server to keep all of this updated
+git add .
+git commit -m "actualización de Brewfile"
 git push -u origin master
