@@ -35,3 +35,5 @@ brew bundle dump
 git add .
 git commit -m "actualización de Brewfile"
 git push -u origin master
+
+date >> /Users/cla-/Desktop/funciona.txt

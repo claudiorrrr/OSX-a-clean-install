@@ -137,6 +137,7 @@ mas "Keynote", id: 409183694
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Reeder", id: 880001334
+mas "Spark", id: 1176895641
 mas "Spillo", id: 873245660
 mas "Tweetbot", id: 557168941
 mas "WhatsApp", id: 1147396723
