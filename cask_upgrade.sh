@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
 (set -x; brew update;)
-# (set -x; brew cask update;) # deprecated on January 1st
-
 (set -x; brew upgrade;)
 
 (set -x; brew cleanup;)
@@ -27,13 +25,9 @@ do
         echo "${red}${cask}${reset} is ${green}up-to-date${reset}."
     fi
 done
+
 # create a Brewfile with an undated list of cask installed 1313
+
 rm Brewfile
-brew bundle dump
 
-# git push to git server to keep all of this updated
-git add .
-git commit -m "actualización de Brewfile"
-git push -u origin master
-
-date >> /Users/cla-/Desktop/funciona.txt
+brew bundle dump >> /Users/cla-/Desktop/funciona-ctm.txt
