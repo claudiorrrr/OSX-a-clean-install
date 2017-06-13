@@ -19,3 +19,8 @@ Then wait for brew bundle to automatically install all your apps. During this ti
 ```bash
 $ sh cask_upgrade.sh
 ```
+
+## Añadir al crontab -e
+
+0 11 * * * /Users/cla-/github/OSX-a-clean-install/cask_upgrade.sh >> /Users/cla-/Downloads/tmp/workkkkkkks.txt 2>&1
+0 18 * * * /Users/cla-/github/OSX-a-clean-install/cask_upgrade.sh >> /Users/cla-/Downloads/tmp/workkkkkkks.txt 2>&1
