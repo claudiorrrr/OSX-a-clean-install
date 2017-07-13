@@ -7,9 +7,11 @@ tap "homebrew/completions"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "homebrew/versions"
+tap "kalikaneko/bitmask"
 tap "kevwil/patches"
 tap "neomutt/neomutt"
 tap "sgeb/mutt"
+cask "xquartz"
 brew "sqlite"
 brew "aircrack-ng"
 brew "apm-bash-completion"
@@ -49,6 +51,7 @@ brew "libyaml"
 brew "mas"
 brew "mobile-shell"
 brew "msmtp"
+brew "mtr"
 brew "neofetch"
 brew "nmap"
 brew "node"
@@ -58,11 +61,10 @@ brew "notmuch"
 brew "offlineimap", restart_service: true
 brew "pandoc"
 brew "pinentry-mac"
-brew "speedtest_cli"
+brew "speedtest-cli"
 brew "stow"
 brew "syncthing", restart_service: true
 brew "terminal-notifier"
-brew "thefuck"
 brew "tmux"
 brew "tokyo-cabinet"
 brew "tor"
@@ -71,16 +73,18 @@ brew "utf8proc"
 brew "vim"
 brew "wget"
 brew "youtube-dl"
+brew "kalikaneko/bitmask/bitmask"
 brew "neomutt/neomutt/neomutt", args: ["with-notmuch-patch"]
 cask "adium"
 cask "appcleaner"
+cask "arq"
 cask "atext"
+cask "atom"
 cask "bartender"
 cask "battery-guardian"
 cask "brackets"
 cask "caffeine"
 cask "chromium"
-cask "cloak"
 cask "colloquy"
 cask "coyim"
 cask "firefox"
@@ -121,7 +125,6 @@ cask "standard-notes"
 cask "steam"
 cask "sublime-text"
 cask "swinsian"
-cask "syncthing-bar"
 cask "telegram-desktop"
 cask "the-unarchiver"
 cask "thunderbird-beta"
@@ -132,13 +135,18 @@ cask "transmit"
 cask "tunnelblick"
 cask "viscosity"
 cask "vlc"
+cask "x2goclient"
 cask "xld"
 mas "1Password", id: 443987910
 mas "Annotate", id: 918207447
+mas "Better", id: 1121192229
 mas "Deckset", id: 847496013
 mas "Fantastical 2", id: 975937182
+mas "GIF Brewery 3", id: 1081413713
 mas "iA Writer", id: 775737590
+mas "Install macOS Sierra", id: 1127487414
 mas "Keynote", id: 409183694
+mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
 mas "Pixelmator", id: 407963104
 mas "Reeder", id: 880001334
