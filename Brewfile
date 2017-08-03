@@ -11,7 +11,6 @@ tap "kalikaneko/bitmask"
 tap "kevwil/patches"
 tap "neomutt/neomutt"
 tap "sgeb/mutt"
-cask "xquartz"
 brew "sqlite"
 brew "aircrack-ng"
 brew "apm-bash-completion"
@@ -34,7 +33,6 @@ brew "fish"
 brew "gdbm"
 brew "gifsicle"
 brew "pkg-config"
-brew "python"
 brew "gmime"
 brew "gnupg"
 brew "pth"
@@ -69,6 +67,7 @@ brew "tmux"
 brew "tokyo-cabinet"
 brew "tor"
 brew "torsocks"
+brew "tree"
 brew "utf8proc"
 brew "vim"
 brew "wget"
@@ -81,7 +80,6 @@ cask "arq"
 cask "atext"
 cask "atom"
 cask "bartender"
-cask "battery-guardian"
 cask "brackets"
 cask "caffeine"
 cask "chromium"
@@ -135,7 +133,6 @@ cask "transmit"
 cask "tunnelblick"
 cask "viscosity"
 cask "vlc"
-cask "x2goclient"
 cask "xld"
 mas "1Password", id: 443987910
 mas "Annotate", id: 918207447
@@ -143,8 +140,8 @@ mas "Better", id: 1121192229
 mas "Deckset", id: 847496013
 mas "Fantastical 2", id: 975937182
 mas "GIF Brewery 3", id: 1081413713
+mas "GIPHY CAPTURE", id: 668208984
 mas "iA Writer", id: 775737590
-mas "Install macOS Sierra", id: 1127487414
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
