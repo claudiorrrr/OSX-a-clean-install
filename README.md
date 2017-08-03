@@ -8,9 +8,9 @@ Lo bueno es que en el fondo esto facilita el proceso de hacer instalaciones limp
 
 * Open Terminal app
 * Install Homebrew via
-```bash /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
-* Copy the Brewfile to your home folder
-* Type ```bash brew bundle```, if prompted, sign in your Apple ID for mas-cli.
+```/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
+* Copy [the Brewfile](Brewfile) to your home folder
+* Type ```brew bundle```, if prompted, sign in your Apple ID for mas-cli.
 
 Then wait for brew bundle to automatically install all your apps. During this time, you just migrate your backup files back to your new Mac like the way you backup them.
 
@@ -27,6 +27,6 @@ $ crontab -e
 ```
 
 ```bash
-0 11 * * * /Users/cla-/github/OSX-a-clean-install/cask_upgrade.sh >> /Users/cla-/Downloads/tmp/workkkkkkks.txt 2>&1
-0 18 * * * /Users/cla-/github/OSX-a-clean-install/cask_upgrade.sh >> /Users/cla-/Downloads/tmp/workkkkkkks.txt 2>&1
+0 11 * * * /Users/cla-/github/OSX-a-clean-install/cask_upgrade.sh
+0 18 * * * /Users/cla-/github/OSX-a-clean-install/cask_upgrade.sh
 ```
