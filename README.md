@@ -14,6 +14,12 @@ Lo bueno es que en el fondo esto facilita el proceso de hacer instalaciones limp
 
 Then wait for brew bundle to automatically install all your apps. During this time, you just migrate your backup files back to your new Mac like the way you backup them.
 
+```bash
+echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+$ chsh -s `which fish`
+```
+
+
 ## Actualizar todo
 
 ```bash
