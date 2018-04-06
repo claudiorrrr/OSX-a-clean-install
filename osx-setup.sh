@@ -47,28 +47,6 @@ else
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-# RVM
-if hash rvm &> /dev/null; then
-	echo_ok "RVM already installed"
-else
-	echo "Installing RVM..."
-	curl -sSL https://get.rvm.io | bash -s stable --ruby
-fi
-
-# add default gems to rvm
-global_gems_config="$HOME/.rvm/gemsets/global.gems"
-default_gems="bundler awesome-print lunchy rak"
-for gem in $default_gems; do
-	echo $gem >> $global_gems_config
-done
-awk '!a[$0]++' $global_gems_config > /tmp/global.tmp
-mv /tmp/global.tmp $global_gems_config
-
-# RVM ruby versions
-for version in $ruby_versions; do
-	rvm install $version
-done
-
 # moar homebrew...
 brew install caskroom/cask/brew-cask
 brew update && brew upgrade brew-cask && brew cleanup && brew cask cleanup
@@ -80,8 +58,10 @@ brew tap homebrew/games
 
 # Homebrew base
 brew install \
-  autoconf automake bash-completion cowsay cmatrix \
-  ffmpeg figlet gettext go gpg freetype htop-osx jq libxml2 mongodb node \
+  aria2 autoconf automake bash bash-completion cowsay cmatrix \
+  exiftool fish git pinentry gnupg gpg-agent mas mosh nmap pandoc pass pinentry-mac speedtest-cli stow tldr tor \
+  syncthing wget wpscan yubico-piv-tool \
+  ffmpeg figlet gettext go freetype htop-osx jq libxml2 mongodb node \
   phantomjs postgres qt readline sqlite unrar v8 wget youtube-dl
 
 # brew cask fonts
@@ -102,51 +82,28 @@ brew cask install \
   font-raleway font-roboto \
   font-source-code-pro font-source-code-pro-for-powerline \
   font-source-sans-pro \
-  font-ubuntu font-ubuntu-mono-powerline
-
-
-# brew cask quicklook
-echo_warn "Installing QuickLook Plugins..."
-brew cask install \
-	qlcolorcode qlmarkdown qlprettypatch qlstephen \
-	qlimagesize \
-	quicklook-csv quicklook-json epubquicklook 
+  font-ubuntu font-ubuntu-mono-powerline \
+  font-clear-sans \
+  font-firacode-nerd-font \
+  font-hack \
+  font-m-plus \
+  font-open-sans \
+  font-roboto
 
 # Apps
 echo_warn "Installing applications..."
 
-# google
-brew cask install google-chrome google-hangouts google-drive
-# other favorites
+# Favorites
 brew cask install \
-  bettertouchtool caffeine day-o karabiner the-unarchiver flux\
-  1password dropbox evernote skitch picturelife \
-  minecraft spotify transmission vlc \
-  adafruit-arduino iterm2 mongohub chrome-devtools firefox sublime-text3 \
-  slack skype telephone \
-  citrix-receiver omnigraffle viscosity
-
-# xquartz
-echo_warn "Installing xquartz (this big download can be slow)"
-n=0
-until [ $n -ge 20 ]; do
-	brew cask install xquartz && break
-	n=$[$n+1]
-	echo_error "... install failed, retry $n"
-done
-
-# brew imagemagick
-brew cask install inkscape
-brew install librsvg
-brew install imagemagick --with-librsvg
+  1password appcleaner arq astro bartender brackets caffeine delibar \
+  etcher firefox fluid fuse ghost github google-chrome \
+  grammarly hyper iterm2 keybase little-snitch mailmate \
+  mojibar notion plexamp signal skype slack spectacle \
+  spotify steam sublime-text3 swinsian \
+  telegram-desktop thunderbird torbrowser transmit vidyo viscosity vlc xld
 
 echo
 echo_ok "Done."
-echo
-echo "After Dropbox has finished installing, link Sublime Text settings:"
-echo_warn "  cd ~/Library/Application\ Support/Sublime\ Text\ 3/"
-echo_warn "  rm -rf Packages"
-echo_warn "  ln -s ~/Dropbox/Sublime/Packages ."
 echo
 echo "Then go to https://packagecontrol.io/installation for Package Control"
 echo

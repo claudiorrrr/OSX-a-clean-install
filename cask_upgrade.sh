@@ -30,7 +30,7 @@ done
 
 # create a Brewfile with an undated list of cask installed 1313
 
-rm /Users/cla-/github/OSX-a-clean-install/Brewfile
-cd /Users/cla-/github/OSX-a-clean-install/
+rm /Users/cla/github/OSX-a-clean-install/Brewfile
+cd /Users/cla/github/OSX-a-clean-install/
 /usr/local/bin/brew bundle dump
 mas upgrade
